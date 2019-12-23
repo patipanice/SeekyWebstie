@@ -1,4 +1,4 @@
-<?php include 'session.php'; include 'session_check.php';?>
+<?php include 'session.php'; ?>
 <!DOCTYPE html>
 <html class="no-js" lang="en">
 <head>
