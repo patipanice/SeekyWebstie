@@ -5,7 +5,7 @@
  	
     ini_set('max_execution_time', 300);
     $ch = curl_init();
-    $url = "localhost:5000/predict";
+    $url = "https://seeky-py.herokuapp.com/predict";
     $cfile = new CURLFile($image['tmp_name'], $image['type'], $image['name']);
     $data = array(
         'img' => $cfile
